@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4d4755;
+}
+
+img {
+  width: 400px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+button {
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100px;
+}
+
+button:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+#Gryffindor {
+  background-color: #740001;
+}
+
+#Slytherin {
+  background-color: #2d8067;
+}
+
+#Hufflepuff {
+  background-color: #a38c33;
+}
+
+#Ravenclaw {
+  background-color: #385198;
+}
+
+.arc path {
+  stroke: #fff;
+  stroke-width: 3px;
+}
+
+.legenda {
+  display: flex;
+  gap: 40px;
+  color: white;
+  list-style: none;
+}
+
+.legenda li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: bold;
+}
+
+#male div {
+  width: 10px;
+  height: 10px;
+  background-color: #586fae;
+  border-radius: 50%;
+}
+
+#female div {
+  width: 10px;
+  height: 10px;
+  background-color: #813133;
+  border-radius: 50%;
+}
