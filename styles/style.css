@@ -32,6 +32,16 @@ button:hover {
   cursor: pointer;
 }
 
+#Tekst {
+  border: none;
+  color: rgb(171, 171, 171);
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  text-shadow: #202121;
+}
+
 #Gryffindor {
   background-color: #740001;
 }

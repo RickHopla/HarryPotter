@@ -2,7 +2,6 @@ import "../styles/style.css";
 
 import * as d3 from "d3";
 
-console.log("Hello, world!");
 
 var width = 400;
 var height = 400;
